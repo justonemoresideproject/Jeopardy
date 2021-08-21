@@ -1,0 +1,73 @@
+/* some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c
+*/
+
+#loadingGif {
+  width: 32rem;
+  height: 32rem;
+  position: absolute;
+  justify-content: center;
+  padding-left: 20%;
+}
+
+.questionCard {
+  border-radius: 100%;
+  background-color: white;
+  color: #115ff4;
+  width: 4rem;
+  height: 4rem;
+  font-size: 4rem;
+  text-justify: auto;
+  text-align: justify, center;
+  /* padding-top: -80%;
+  padding-bottom: -30%; */
+  /* padding-left: 2rem; */
+  margin-left: 2rem;
+}
+
+tr {
+  background-color: #060ce9;
+  height: 5rem;
+  width: 8rem;
+  text-transform: capitalize;
+}
+
+
+.category {
+  background-color: #060ce9;
+  height: 4rem;
+  width: 8rem;
+  color: yellow;
+  text-transform: capitalize;
+}
+
+.null {
+  background-color: #115ff4;
+  width: 8rem;
+  color: white;
+  font-size: 1.5rem;
+  /* border-radius: 100%; */
+  /* text-decoration: underline white; */
+  text-justify: auto;
+  text-align: center;
+}
+
+.answer {
+  background-color: rgba(128, 255, 0, 0.616);
+  text-justify: auto;
+  text-align: center;
+  color: white;
+}
+
+.question {
+  font-size: 12px;
+  color: white;
+  background-color: #115ff4;
+  text-justify: auto;
+  text-align: center;
+  width: 8rem;
+}
